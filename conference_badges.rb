@@ -13,14 +13,14 @@ def batch_badge_creator(attendees)
   return badges
 end
 
-def assign_rooms(attendees)
-  room_assignments = Array.new
-  attendees.each_with_index do |name, room|
-    attendees[name] = room
-    badges.push
-  end
-  return attendees
-end
+#def assign_rooms(attendees)
+#  room_assignments = Array.new
+#  attendees.each_with_index do |name, room|
+#    attendees[name] = room
+#    badges.push
+#  end
+#  return attendees
+#end
 
 
 def assign_rooms(attendees)
