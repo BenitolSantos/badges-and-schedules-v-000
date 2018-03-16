@@ -22,4 +22,4 @@ def assign_rooms(attendees)
   return attendees
 end
 
-assign_rooms(["clark","bruce","diana"])
+assign_rooms(["clark","bruce","diana","barry"])
