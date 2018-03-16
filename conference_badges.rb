@@ -15,7 +15,8 @@ end
 
 def assign_rooms(attendees)
   room_assignments = Array.new
-  attendees.each_with_index do |name, room| {room = room + 1}
+  attendees.each_with_index do |name, room|
+    room = room + 1
     room_assignments.push("Hi #{name}! Your assigned room is #{room.to_s}")
   end
   return room_assignments
