@@ -4,4 +4,7 @@ def badge_maker(name)
 end
 
 def badge_badge_creator(attendees)
+  attendees.each do |name|
+    return 
+  end
 end
