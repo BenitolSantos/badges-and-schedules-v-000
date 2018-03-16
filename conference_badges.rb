@@ -19,5 +19,5 @@ def assign_rooms(attendees)
     attendees[name] = room
     badges.push
   end
-  attendees
+  return attendees
 end
