@@ -1,9 +1,10 @@
+require 'pry'
 # Write your code here.
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-
+binding.pry
 def badge_badge_creator(attendees)
   badges = Array.new
   attendees.each do |name|
