@@ -24,4 +24,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendee)
+  badges(attendees)
+  assign_rooms(attendees)
 end
