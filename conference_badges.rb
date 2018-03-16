@@ -15,7 +15,7 @@ end
 
 def assign_rooms(attendees)
   room_assignments = Array.new
-  attendees.each_with_index do |name, room|
+  attendees(name).each_with_index do |name, room|
     attendees[name] = room
     badges.push
   end
