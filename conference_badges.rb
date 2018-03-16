@@ -5,6 +5,7 @@ end
 
 def badge_badge_creator(attendees)
   attendees.each do |name|
-    return "Hello, my name is #{name}."
+    attendee_name = name
+    return "Hello, my name is #{attendee_name}."
   end
 end
