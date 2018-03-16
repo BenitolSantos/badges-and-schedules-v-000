@@ -21,3 +21,5 @@ def assign_rooms(attendees)
   end
   return attendees
 end
+
+assign_rooms(["Bobby","Jeff","Dean"])
