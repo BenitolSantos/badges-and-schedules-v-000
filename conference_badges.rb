@@ -13,6 +13,8 @@ def batch_badge_creator(attendees)
   return badges
 end
 
-def assign_rooms(speakers)
-  
+def assign_rooms(attendees)
+  room_assignments = Array.new
+  attendees.each do |name|
+    badges.push("Hello,#{name}.")
 end
